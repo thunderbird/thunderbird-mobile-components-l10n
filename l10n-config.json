@@ -1,0 +1,30 @@
+{
+  "source": {
+    "repository": "https://github.com/thunderbird/thunderbird-mobile-components.git",
+    "branches": [
+      "main"
+    ]
+  },
+  "import": {
+    "sourceFilePatterns": [
+      "**/composeResources/values/strings.xml"
+    ],
+    "translatedFilePatterns": [
+      "**/composeResources/values*/strings.xml"
+    ],
+    "excludedPaths": [
+
+    ]
+  },
+  "weblate": {
+    "baseUrl": "https://hosted.weblate.org/api/",
+    "projectSlug": "thunderbird",
+    "defaultLinkedComponent": "tmc-base",
+    "componentRepo": "weblate://thunderbird/thunderbird",
+    "discovery": {
+      "resources": [
+        "compose"
+      ]
+    }
+  }
+}
