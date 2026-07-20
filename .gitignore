@@ -1,0 +1,15 @@
+### macOS
+# Finder metadata
+.DS_Store
+
+### JetBrains
+.idea/
+
+# Gradle
+.gradle/
+build/
+.tmp/
+.kotlin/
+
+# Maven
+target/
