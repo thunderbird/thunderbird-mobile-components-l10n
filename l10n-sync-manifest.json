@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "branches": {
+        "main": {
+            "files": {
+                "config/weblate/composeResources/values/strings.xml": [
+                    "weblate_base_component"
+                ]
+            }
+        }
+    }
+}
